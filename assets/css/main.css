@@ -2319,6 +2319,7 @@
 			button.special:hover,
 			.button.special:hover {
 				background-color: #ef5e4a !important;
+				opacity: 0.6;
 			}
 
 			input[type="submit"].special:active,
@@ -2327,6 +2328,7 @@
 			button.special:active,
 			.button.special:active {
 				background-color: #eb341c !important;
+				opacity: 0.6;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
