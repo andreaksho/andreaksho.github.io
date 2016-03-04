@@ -2318,7 +2318,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #ef5e4a !important;
+				background-color: #ef5e4a ;
 				opacity: 0.6;
 			}
 
@@ -2327,7 +2327,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #eb341c !important;
+				background-color: #eb341c ;
 				opacity: 0.6;
 			}
 
