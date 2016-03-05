@@ -3298,6 +3298,13 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/background.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 		#banner h2 {
