@@ -1922,15 +1922,15 @@
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: rgba(255, 251, 0, 0.64);
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: rgba(0, 255, 236, 0.67);
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: rgba(255, 133, 118, 0.8);
 		}
 
 /* Image */
