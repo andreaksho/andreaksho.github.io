@@ -93,6 +93,12 @@
 					leave:		function() { $header.removeClass('alt'); }
 				});
 
+		//wrapper style4.
+			//$('.scrolly')
+				//.scrolly({
+					//speed: 1500,
+					//offset: $header.outerHeight()
+				//});		
 			}
 
 	});
