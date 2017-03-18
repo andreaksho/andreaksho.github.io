@@ -2752,6 +2752,9 @@
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
 			}
+			.tiles article.style7 > .image:before {
+				background-color: #D5D469;
+			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
