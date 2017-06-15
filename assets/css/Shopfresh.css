@@ -1688,8 +1688,12 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 15em .8em 15em;
+		text-align: center;
+		max-width: 35em;
+		vertical-align: middle;
 	}
+
 
 	h1 {
 		font-size: 2.75em;
@@ -1721,11 +1725,39 @@
 		}
 
 	h2, h3, h4, h5 {
+		font-weight: 700;
+		line-height: 1.5;
+		margin: 3em 0 .5em 0;
+		text-transform: uppercase;
+		letter-spacing: 0.35em;
+	}
+
+
+	h2 {
+		font-size: 1.3em;
+		margin: 1em 0 1em 0;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 1.1em;
+		margin: 4em 0 4em 0;
+		text-align: center;
+	}
+
+	h4 {
+		font-size: 0.9em;
+		text-align: center;
+
+	}
+
+	h5 {
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
+		font-size: 1.1em;
 	}
 	h6 {
 		line-height: 1.5;
@@ -1739,21 +1771,6 @@
 			color: inherit;
 		}
 
-	h2 {
-		font-size: 1.1em;
-	}
-
-	h3 {
-		font-size: 1em;
-	}
-
-	h4 {
-		font-size: 0.8em;
-	}
-
-	h5 {
-		font-size: 0.8em;
-	}
 /*H6 is for quotes*/
 	h6 {
 		font-size: 0.8em;
@@ -3208,11 +3225,17 @@
 /* Green Colour Block */
 
 	.mainbox {		
-		left:0;
-		right:0;
-		width:100%;
-		height:400px;
+		position: relative;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 30px;
+		padding-top: 28px;
+		margin: 0 0 0 0em;
+		padding: 0
+		margin: 0;
 
+		
+		
 	}
  
 	.green {
@@ -3221,11 +3244,16 @@
 
 	.mainbox p {
 		color: #FFFFFF;
-		text-align:center;
-		top:50%;
-		justify-content: center;
-
+		text-align: center;
+		top: 50%;
 	}
+	.mainbox h4 {
+		color: #FFFFFF;
+		text-align: center;
+		top: 50%;
+		max-width:;
+	}
+
 
 /* Footer */
 	#footer {
