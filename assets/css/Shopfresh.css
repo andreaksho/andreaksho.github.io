@@ -58,6 +58,7 @@
 
 /* Grid */
 
+/*
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -1603,9 +1604,9 @@
 		}
 
 	}
-
+*/
 /* Basic */
-
+/*
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -1636,7 +1637,7 @@
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
+*/
 /* Type */
 
 	body, input, select, textarea {
@@ -1719,15 +1720,22 @@
 
 		}
 
-	h2, h3, h4, h5, h6 {
+	h2, h3, h4, h5 {
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
 	}
-
-		h2 a, h3 a, h4 a, h5 a, h6 a {
+	h6 {
+		line-height: 1.5;
+		margin: 0 0 2em 0;
+		letter-spacing: 0.3em
+	}
+	h6 a{
+		color: #FFFFFF;
+	}
+		h2 a, h3 a, h4 a, h5 a{
 			color: inherit;
 		}
 
@@ -1746,7 +1754,7 @@
 	h5 {
 		font-size: 0.8em;
 	}
-
+/*H6 is for quotes*/
 	h6 {
 		font-size: 0.8em;
 	}
@@ -3177,7 +3185,7 @@
 			transform: scale(1.0) rotate(0deg);
 			opacity: 1;
 		}
-
+*/
 /* Main */
 
 	#main {
@@ -3196,8 +3204,30 @@
     	text-align: center;
     	width: 100%;
 }
-/* Footer */
 
+/* Green Colour Block */
+
+	.mainbox {		
+		left:0;
+		right:0;
+		width:100%;
+		height:400px;
+
+	}
+ 
+	.green {
+		background:#82B64E;
+	}
+
+	.mainbox p {
+		color: #FFFFFF;
+		text-align:center;
+		top:50%;
+		justify-content: center;
+
+	}
+
+/* Footer */
 	#footer {
 		padding: 5em 0 6em 0 ;
 		background-color: #f6f6f6;
