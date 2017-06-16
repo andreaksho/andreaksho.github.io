@@ -3246,11 +3246,18 @@
 		color: #FFFFFF;
 		text-align: center;
 		top: 50%;
+		margin: 0 em 0em 20em;
+
+	}
+	.mainbox h2 {
+		color: #FFFFFF;
+		text-align: center;
+		margin: 0 0 0 0;
+		max-width:;
 	}
 	.mainbox h4 {
 		color: #FFFFFF;
 		text-align: center;
-		top: 50%;
 		max-width:;
 	}
 
