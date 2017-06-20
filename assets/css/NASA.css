@@ -1690,8 +1690,9 @@
 	p {
 		margin: auto;
 		text-align: center;
-		max-width: 35em;
+		max-width: 30em;
 		vertical-align: middle;
+		margin-bottom: 2em;
 	}
 
 
@@ -1900,11 +1901,7 @@
 		.icon > .label {
 			display: none;
 		}
-		.icon.style3 {
-			font-family: FontAwesome;
-			text-align: center;
 
-		}
 		.icon.style2 {
 			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -1933,6 +1930,12 @@
 			.icon.style2:active {
 				background-color: rgba(242, 132, 158, 0.1);
 			}
+			
+		.icon.style3 {
+			font-family: FontAwesome;
+			text-align: center;
+			margin:0 auto;
+		}
 
 /* List */
 
