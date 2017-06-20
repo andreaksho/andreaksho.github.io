@@ -1855,7 +1855,9 @@
 	}
 
 /* Icon */
-
+	.mainicon {
+		position: relative;
+	}
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
