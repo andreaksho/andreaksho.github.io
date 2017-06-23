@@ -1763,8 +1763,9 @@
 	}
 	h6 {
 		line-height: 1.5;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		letter-spacing: 0.3em
+		text-align: center;
 	}
 	h6 a{
 		color: #FFFFFF;
@@ -1776,6 +1777,7 @@
 /*H6 is for quotes*/
 	h6 {
 		font-size: 0.8em;
+		text-align: center;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -1934,7 +1936,7 @@
 		.icon.style3 {
 			font-family: FontAwesome;
 			text-align: center;
-			margin:0 auto;
+			margin:0;
 		}
 
 /* List */
@@ -3237,7 +3239,7 @@
 		text-align: center;
 		width: 100%;
 		padding-bottom: 30px;
-		padding-top: 28px;
+		padding-top: 30px;
 		margin: 0 0 0 0em;
 		padding: 0
 		margin: 0;
@@ -3252,9 +3254,8 @@
 
 	.mainbox p {
 		color: #FFFFFF;
-		text-align: center;
-		top: 50%;
-		margin: 0 em 0em 20em;
+		text-align: center;;
+		margin: 
 
 	}
 	.mainbox h2 {
@@ -3263,13 +3264,49 @@
 		margin: 0 0 0 0;
 		max-width:;
 	}
+	.mainbox h3 {
+		color: #FFFFFF;
+		text-align: center;
+		margin: 1.2em 0 .3em 0;
+		max-width:;
+	}
+
 	.mainbox h4 {
 		color: #FFFFFF;
 		text-align: center;
 		max-width:;
 	}
 
+/* Deliverables Icons */
+	.deliverables {
+		display: flex;
+		width:100%;
+		position: relative;
+	}
+	.single {
+		text-align: center;
+		width: 100%;
+	}
+	.single h4 { 
+		font-weight: 700;
+		line-height: 1.5;
+		margin: auto;
+		letter-spacing: 0.10em;
+	}
+	.single h6 { 
+		line-height: 2;
+		margin: auto;
+		letter-spacing: 0.05em;
+	}
+	
 
+		@media only screen and (max-width: 400px) {
+		body { font-size:40%;}
+		}
+
+		@media only screen and (max-width: 480px) {
+		body { font-size:60%;}
+		}
 /* Footer */
 	#footer {
 		padding: 5em 0 6em 0 ;
