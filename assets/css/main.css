@@ -2780,8 +2780,8 @@
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
-					opacity: 0.35;
+					background-color: #FFFFFF;
+					opacity: 0;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
@@ -2898,7 +2898,7 @@
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
+					width: 3.5em;
 					height: 2em;
 				}
 
