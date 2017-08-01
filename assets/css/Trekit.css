@@ -2417,6 +2417,14 @@
 				}
 
 			}
+/* Video*/
+
+	.video {
+		margin: auto;
+		display: block;
+		text-align: center;
+		padding: 0 0 3em 0;
+	}
 
 /* Table */
 
@@ -3177,7 +3185,7 @@
 					width: 4.25em;
 					text-indent: 4.25em;
 				}
-
+img
 					#menu > .close:before, #menu > .close:after {
 						background-size: 1.5em 1.5em;
 					}
