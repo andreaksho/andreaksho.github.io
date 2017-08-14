@@ -2888,7 +2888,7 @@
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 4em 0 0em 0 ;
 	}
 
 		#header .logo {
@@ -2914,9 +2914,40 @@
 
 				#header .logo .symbol img {
 					display: block;
-					width: 3.5em;
-					height: 2em;
+					width: 7em;
+					height: 1em;
 				}
+
+		#header .aboutme {
+			display: block;
+			border-bottom: 0;
+			color: inherit;
+			font-weight: 500;
+			letter-spacing: 0.1em;
+			margin: 0 0 0 2em;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+			float: right;
+			font-size: 1em;
+
+		}
+
+			#header .aboutme > * {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			#header .aboutme .symbol {
+				margin-right: 0.65em;
+			}
+
+				#header .aboutme .symbol img {
+					display: block;
+					width: 7em;
+					height: 1em;
+				}
+
 
 		#header nav {
 			position: fixed;
