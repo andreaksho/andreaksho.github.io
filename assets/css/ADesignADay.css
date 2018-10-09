@@ -2897,7 +2897,7 @@
 				#header .logo .symbol img {
 					display: block;
 					width: 7em;
-					height: 1em;
+					height: auto;
 				}
 
 		#header .aboutme {
