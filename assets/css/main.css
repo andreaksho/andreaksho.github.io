@@ -1709,7 +1709,7 @@
 
 			h1 {
 				font-size: 2em;
-				margin: 0 0 1em 0;
+				margin: 0 0 0 0;
 			}
 
 		}
@@ -2384,6 +2384,7 @@
 
 			.image.main img {
 				width: 100%;
+				/*padding: 1em 0 0 0;*/
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3029,7 +3030,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 4em 0 0.1em 0 ;
+				/*padding: 4em 0 0.1em 0 */;
 			}
 
 				#header nav {
